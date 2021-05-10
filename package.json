@@ -1,0 +1,37 @@
+{
+  "name": "raturbo-cli",
+  "version": "0.1.0",
+  "author": "data frontend",
+  "description": "turbo front end cli",
+  "homepage": "https://github.com/EzioReturner/RATurbo-cli",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "turbo": "bin/turbo.js",
+    "turbo-add": "bin/turbo-add.js",
+    "turbo-init": "bin/turbo-init.js",
+    "turbo-list": "bin/turbo-list.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "turbo",
+    "cli"
+  ],
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/EzioReturner/RATurbo-cliont/turbo-cli"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
